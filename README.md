@@ -1,3 +1,9 @@
-Application Users and Images
+## Application Users and Images
 
-This application gets information abut users from dummyjson.com/users.
+- This application gets information abut users from dummyjson.com/users.
+- Libraries:
+  - Retrofit
+  - Hilt
+- Architecture:
+  - MVVM
+  - Clean Code
