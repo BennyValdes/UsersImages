@@ -25,8 +25,6 @@ fun UserList(){
     val viewModel:UserListViewModel = hiltViewModel()
     val userList by viewModel.allUsers.collectAsState()
 
-
-
     LazyColumn {
         items(userList?: emptyList()) { element ->
             Card(

@@ -12,7 +12,9 @@ import javax.inject.Inject
 
 
 @HiltViewModel
-class UserListViewModel @Inject constructor(val repository: IApiRepository): ViewModel() {
+class UserListViewModel @Inject constructor(
+    val repository: IApiRepository
+): ViewModel() {
     val _allUsers = MutableStateFlow <List<User?>?> (emptyList())
     val allUsers: MutableStateFlow<List<User?>?> = _allUsers
 
